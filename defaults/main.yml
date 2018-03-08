@@ -1,0 +1,13 @@
+cachebench:
+  cachebench_read:
+    category: 'Performance memory bandwidth cachebench_read'
+    scores_way: 'compute_speed_score 3'
+    parser: 'cachebench_read_parser'
+  cachebench_write:
+    category: 'Performance memory bandwidth cachebench_write'
+    scores_way: 'compute_speed_score 3'
+    parser: 'cachebench_write_parser'
+  cachebench_Modify:
+    category: 'Performance memory bandwidth cachebench_rmw'
+    scores_way: 'compute_speed_score 3'
+    parser: 'cachebench_modify_parser'
